@@ -2,5 +2,5 @@
 project (ExcelDatabase)
 set(CMAKE_CXX_STANDARD 17)
 add_subdirectory(OpenXLSX)
-add_executable (ExcelDatabase main.cpp names.cpp)
+add_executable (ExcelDatabase main.cpp names.cpp sha256.cpp)
 target_link_libraries(ExcelDatabase OpenXLSX::OpenXLSX)
