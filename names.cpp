@@ -1,4 +1,3 @@
-#include <array>
 #include "head.h"
 using namespace std;
 
