@@ -4,7 +4,6 @@
 #include <OpenXLSX.hpp>
 #include <time.h>
 #include <string.h>
-#include <array>
 #include "sha256.h"
 #include "head.h"
 using namespace std;
